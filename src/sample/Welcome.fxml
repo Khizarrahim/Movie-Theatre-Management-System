@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="1080.0" style="-fx-background-color: #080808;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WelcomeController">
+   <children>
+      <ImageView fitHeight="564.0" fitWidth="1080.0" layoutX="-14.0" layoutY="3.0" opacity="0.5">
+         <image>
+            <Image url="@old-film-projector-with-dark-room-background_41886-21.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="123.0" layoutX="303.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1280px-Amazon_Prime_Video_logo.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="134.0" layoutX="429.0" layoutY="447.0">
+         <image>
+            <Image url="@Disney+-Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="72.0" layoutX="587.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Netflix-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="97.0" layoutX="822.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1200px-Hulu_Logo.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="98.0" layoutX="693.0" layoutY="457.0">
+         <image>
+            <Image url="@apple-tv-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="110.0" layoutX="45.0" layoutY="481.0">
+         <image>
+            <Image url="@Vudu_Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="72.0" layoutX="196.0" layoutY="465.0">
+         <image>
+            <Image url="@youtube-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="110.0" layoutX="933.0" layoutY="449.0">
+         <image>
+            <Image url="@hbo-max_logo_article.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="397.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME TO THE FIREPLEX" textAlignment="RIGHT" wrappingWidth="568.13671875">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="57.0" />
+         </font></Text>
+      <Button fx:id="BuyTickets" layoutX="657.0" layoutY="360.0" mnemonicParsing="false" onAction="#Buy" prefHeight="46.0" prefWidth="177.0" style="-fx-border-color: red; -fx-background-color: Black;" text="BUY TICKETS" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Show" layoutX="358.0" layoutY="360.0" mnemonicParsing="false" onAction="#Display" prefHeight="46.0" prefWidth="177.0" style="-fx-border-color: red; -fx-background-color: Black;" text="VIEW SHOWTIMES" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Admin" layoutX="772.0" layoutY="196.0" mnemonicParsing="false" onAction="#Login" prefHeight="46.0" prefWidth="177.0" style="-fx-border-color: red; -fx-background-color: #DC143C;" text="ADMIN" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="12.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>

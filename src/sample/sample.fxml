@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="1080.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="insertion" layoutX="190.0" layoutY="126.0" mnemonicParsing="false" onAction="#Insert" prefHeight="46.0" prefWidth="181.0" style="-fx-background-color: grey; -fx-background-radius: 500;" text="Insert" />
+      <Button fx:id="update" layoutX="190.0" layoutY="305.0" mnemonicParsing="false" onAction="#Updation" prefHeight="46.0" prefWidth="181.0" style="-fx-background-color: grey; -fx-background-radius: 500;" text="Update" />
+      <Button fx:id="Delete" layoutX="540.0" layoutY="126.0" mnemonicParsing="false" onAction="#Deletion" prefHeight="46.0" prefWidth="181.0" style="-fx-background-color: grey; -fx-background-radius: 500;" text="Delete" />
+      <Button fx:id="Search" layoutX="540.0" layoutY="305.0" mnemonicParsing="false" onAction="#Searching" prefHeight="46.0" prefWidth="181.0" style="-fx-background-color: grey; -fx-background-radius: 500;" text="Search " />
+      <ImageView fitHeight="34.0" fitWidth="123.0" layoutX="313.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1280px-Amazon_Prime_Video_logo.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="134.0" layoutX="439.0" layoutY="457.0">
+         <image>
+            <Image url="@Disney+-Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="72.0" layoutX="597.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Netflix-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="97.0" layoutX="832.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1200px-Hulu_Logo.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="98.0" layoutX="703.0" layoutY="467.0">
+         <image>
+            <Image url="@apple-tv-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="110.0" layoutX="55.0" layoutY="491.0">
+         <image>
+            <Image url="@Vudu_Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="72.0" layoutX="206.0" layoutY="475.0">
+         <image>
+            <Image url="@youtube-logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="110.0" layoutX="943.0" layoutY="459.0">
+         <image>
+            <Image url="@hbo-max_logo_article.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back" layoutX="25.0" layoutY="22.0" mnemonicParsing="false" onAction="#Goback" prefHeight="30.0" prefWidth="37.0">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@circled-left-2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="RecordList" layoutX="825.0" layoutY="132.0" mnemonicParsing="false" onAction="#bookcheck" prefHeight="46.0" prefWidth="181.0" style="-fx-background-color: grey; -fx-background-radius: 500;" text="TicketRecords" />
+   </children>
+</AnchorPane>

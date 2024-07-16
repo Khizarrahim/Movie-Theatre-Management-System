@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #262626;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="129.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Us">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="138.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The FireplexCinema is the country's leading producer of open-air cinema events. Our screenings follow one simple formula: a classic film on a big screen in a beautiful or prestigious setting. We use state of the art screens, digital projectors and bespoke sound equipment to provide a cinema-quality visual and audio experience, but with the magic of being under the stars." wrappingWidth="293.533203125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

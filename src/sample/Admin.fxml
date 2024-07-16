@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="1080.0" style="-fx-background-color: #080808;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminLogin">
+   <children>
+      <Pane layoutX="675.0" prefHeight="570.0" prefWidth="338.0" style="-fx-background-color: #DC143C;">
+         <children>
+            <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="59.0" layoutY="186.0">
+               <image>
+                  <Image url="@icons8_name_480px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="62.0" layoutY="271.0">
+               <image>
+                  <Image url="@icons8_password_500px.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="username" layoutX="113.0" layoutY="198.0" onAction="#check_login" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="114.0" layoutY="287.0" onAction="#check_login" promptText="Password" />
+            <Button fx:id="SignIn" layoutX="128.0" layoutY="362.0" mnemonicParsing="false" onAction="#check_login" prefHeight="35.0" prefWidth="118.0" style="-fx-background-color: grey; -fx-background-radius: 500;" text="Login" />
+         </children>
+      </Pane>
+      <Pane prefHeight="42.0" prefWidth="1080.0" style="-fx-background-color: grey;">
+         <children>
+            <HBox layoutX="58.0" layoutY="9.0" prefHeight="25.0" prefWidth="256.0">
+               <children>
+                  <Button fx:id="Home" mnemonicParsing="false" onAction="#HomePage" prefHeight="31.0" prefWidth="79.0" style="-fx-background-color: grey;" text="HOME" />
+                  <Button fx:id="About" mnemonicParsing="false" onAction="#AboutUS" prefHeight="31.0" prefWidth="79.0" style="-fx-background-color: grey;" text="ABOUT US" />
+                  <Button fx:id="Contact" mnemonicParsing="false" onAction="#Contact" prefHeight="31.0" prefWidth="79.0" style="-fx-background-color: grey;" text="CONTACT" />
+               </children>
+            </HBox>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#GoBack" style="-fx-background-color: grey;">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@circled-left-2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
